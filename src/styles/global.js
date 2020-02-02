@@ -77,5 +77,11 @@ const GlobalStyles = createGlobalStyle`
     --backgroundMenubar: #E7EDF7;
     --textMenubar: #8899a6;
   }
+
+  svg {
+    fill: #000;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
 `
 export default GlobalStyles

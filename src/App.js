@@ -1,8 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react';
-import logo from './logo.svg';
-import './App.css';
 import * as d3 from 'd3'
-import csvData from './out.csv'
+import csvData from '../data/daily/dailyPrices.csv'
 import LineChart from './Components/LineChart/LineChart'
 import Header from './Components/Header'
 import GlobalStyle from "./styles/global"
