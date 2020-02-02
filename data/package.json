@@ -1,0 +1,21 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "export-to-csv": "^0.2.1",
+    "json-2-csv": "^3.5.9",
+    "node-fetch": "^2.6.0",
+    "cross-blob": "^1.2.0",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "create-daily-prices": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
