@@ -2,7 +2,7 @@ const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const fetch = require('node-fetch');
 
 const csvWriter = createCsvWriter({
-  path: 'dailyPrices.csv',
+  path: './daily/dailyPrices.csv',
   header: [
     {id: 'date', title: 'date'},
     {id: 'price', title: 'price'},
