@@ -1,13 +1,11 @@
 import React, {useState, useEffect, useRef} from 'react';
 import * as d3 from 'd3'
-import csvData from '../data/daily/dailyPrices.csv'
+import csvData from '../data/dailyPrices.csv'
 import LineChart from './Components/LineChart/LineChart'
 import Header from './Components/Header'
 import GlobalStyle from "./styles/global"
 import Footer from './Components/Footer';
-
-
-
+import { Container } from './styles/styled'
 // const parseNumber = n => {
 //   n.price = +n.price
 //   return n
@@ -35,7 +33,9 @@ const App = () => {
     <div>
       <GlobalStyle />
       <Header/>
-      <LineChart data={data} width={width} height={height} />
+      <Container>
+        <LineChart data={data} width={width} height={height} />
+      </Container>
       <Footer/>
     </div>
   );

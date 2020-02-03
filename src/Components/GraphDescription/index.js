@@ -1,13 +1,13 @@
 import React from "react"
-
+import * as S from "./styled"
 
 const GraphDescription = ({title, description}) => {
   
   return (
-    <div>
-        <h4>{title}</h4>
-        <p>{description}</p>
-    </div>
+    <S.Wrapper>
+        <S.Title>{title}</S.Title>
+        <S.Description>{description}</S.Description>
+    </S.Wrapper>
   )
 }
 

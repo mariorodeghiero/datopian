@@ -7,8 +7,8 @@ const LineChart = (props) => {
   const svgRef = useRef()
   const svg = select(svgRef.current)
       var margin = {top: 10, right: 30, bottom: 30, left: 60},
-      width = 760 - margin.left - margin.right,
-      height = 400 - margin.top - margin.bottom;
+      width = 660 - margin.left - margin.right,
+      height = 360 - margin.top - margin.bottom;
   
   // append the svg object to the body of the page
     svg
@@ -52,9 +52,9 @@ const LineChart = (props) => {
       return  (
         <div>
           <GraphDescription 
-            title="Henry Hub Natural Gas Spot Price"
-            description=""/>
-          <svg ref={svgRef}></svg>
+            title="Henry Hub Natural Gas - Daily Prices"
+            description="The Henry Hub Natural Gas Spot Price measures the price in US Dollar per 1 Million Btu."/>
+            <svg ref={svgRef}></svg>
         </div>
       )
   }

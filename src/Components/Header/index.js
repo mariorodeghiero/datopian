@@ -9,7 +9,9 @@ const Header = () => {
   return (
     <S.MenuBarWrapper>
       <S.MenuBarGroup>
-        <S.DatopianLogo src={Logo}/>
+        <S.Link href="https://www.datopian.com/">
+          <S.DatopianLogo src={Logo}/>
+        </S.Link>
       </S.MenuBarGroup>
     </S.MenuBarWrapper>
   )
