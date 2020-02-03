@@ -28,7 +28,7 @@ $ cd your-project-name
 $ npm install
 ```
 
-# Install and Run **Scripts to create CSV files**
+## Install and Run **Scripts to create CSV files**
 
 ```bash
 $ cd data
