@@ -1,13 +1,10 @@
-
-<div align="right">
-
-[![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-
-</div>
-
 <div align="center">
 
-<img src="https://datahub.io/static/img/datopian-logo.png" style="max-width: 220px;">
+<p>Check online <a href="https://mariorodeghiero.github.io/datopian/">here</a>.</p>
+
+<img src="./src/assets/print.png">
+
+[![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 </div>
 
