@@ -1,8 +1,12 @@
 <div align="center">
 
-<img src="./src/assets/datopian-logo.png" style="height: 100%; width: 45%;">
+<img src="./src/assets/datopian-logo.png" style="max-width: 220px;">
+
+<div style="margin-left: -2rem">
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+
+</div>
 
 </div>
 
