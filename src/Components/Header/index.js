@@ -3,7 +3,6 @@ import React from "react"
 import * as S from "./styled"
 import Logo from '../../assets/datopian-logo.png'
 
-
 const Header = () => {
   
   return (

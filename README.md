@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./src/assets/datopian-logo.png" style="max-width: 220px;">
+<img src="https://datahub.io/static/img/datopian-logo.png" style="max-width: 220px;">
 
 <div style="margin-left: -2rem">
 
