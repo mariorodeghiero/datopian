@@ -1,0 +1,45 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+      {
+        "name": "resource1",
+        "path": "dailyPrices.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "date",
+              "type": "integer",
+              "format": "default"
+            },
+            {
+              "name": "price",
+              "type": "integer",
+              "format": "default"
+            }
+          ]
+        }
+      }
+    ],
+    "keywords": [
+      "Natural Gas",
+      "Daily Prices"
+    ],
+    "name": "daily-prices",
+    "contributors": [
+      {
+        "title": "Mario Rodeghiero",
+        "role": "author"
+      }
+    ],
+    "homepage": "https://github.com/mariorodeghiero/datopian",
+    "description": "Henry Hub Natural Gas - Daily Prices",
+    "title": "Henry Hub Natural Gas Daily Prices",
+    "licenses": [
+      {
+        "name": "ODC-PDDL-1.0",
+        "title": "Open Data Commons Public Domain Dedication and Licence 1.0",
+        "path": "http://www.opendefinition.org/licenses/odc-pddl"
+      }
+    ]
+  }
