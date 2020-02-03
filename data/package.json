@@ -11,9 +11,7 @@
     "cross-blob": "^1.2.0",
     "styled-components": "^5.0.0"
   },
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
-  },
+  "devDependencies": {},
   "scripts": {
     "create-daily-prices": "node index.js"
   },
