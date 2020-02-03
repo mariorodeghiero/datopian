@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/datopian/precache-manifest.3fe6a9a5ad841ffc2ee311a729a20568.js"
+  "/datopian/precache-manifest.57da8b574e226e119016411d7f56f6a2.js"
 );
 
 self.addEventListener('message', (event) => {
