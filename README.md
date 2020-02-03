@@ -28,6 +28,17 @@ $ cd your-project-name
 $ npm install
 ```
 
+## Run **Front-End**
+
+```bash
+$ npm run start
+```
+
+Run the app in the development mode.<br />
+Open [http://localhost:3000/](http://localhost:8080/) to view it in the browser.
+
+The page will reload if you make edits.<br />
+
 ## Install and Run **Scripts to create CSV files**
 
 ```bash
@@ -41,17 +52,6 @@ $ npm install
 ```bash
 $ npm run create-daily-prices
 ```
-
-## Run **Front-End**
-
-```bash
-$ npm run start
-```
-
-Run the app in the development mode.<br />
-Open [http://localhost:3000/](http://localhost:8080/) to view it in the browser.
-
-The page will reload if you make edits.<br />
 
 ## Contributing
 
