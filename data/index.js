@@ -9,7 +9,6 @@ const csvWriter = createCsvWriter({
   ]
 });
 
-// fetch('http://api.eia.gov/series/?api_key=f58749d9d62d82f4e2cf77fe83ae97ce&series_id=NG.RNGWHHD.M')
 fetch('http://api.eia.gov/series/?api_key=f58749d9d62d82f4e2cf77fe83ae97ce&series_id=NG.RNGWHHD.D')
   .then(response => response.json())
   .then(data => data.series[0].data)
