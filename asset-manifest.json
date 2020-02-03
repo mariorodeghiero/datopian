@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/datopian/static/js/main.8e7efccc.chunk.js",
+    "main.js.map": "/datopian/static/js/main.8e7efccc.chunk.js.map",
+    "runtime-main.js": "/datopian/static/js/runtime-main.c8adc897.js",
+    "runtime-main.js.map": "/datopian/static/js/runtime-main.c8adc897.js.map",
+    "static/js/2.3af7afb9.chunk.js": "/datopian/static/js/2.3af7afb9.chunk.js",
+    "static/js/2.3af7afb9.chunk.js.map": "/datopian/static/js/2.3af7afb9.chunk.js.map",
+    "index.html": "/datopian/index.html",
+    "precache-manifest.3fe6a9a5ad841ffc2ee311a729a20568.js": "/datopian/precache-manifest.3fe6a9a5ad841ffc2ee311a729a20568.js",
+    "service-worker.js": "/datopian/service-worker.js",
+    "static/js/2.3af7afb9.chunk.js.LICENSE.txt": "/datopian/static/js/2.3af7afb9.chunk.js.LICENSE.txt",
+    "static/media/dailyPrices.csv": "/datopian/static/media/dailyPrices.20818a70.csv",
+    "static/media/datopian-logo.png": "/datopian/static/media/datopian-logo.687cce1c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8adc897.js",
+    "static/js/2.3af7afb9.chunk.js",
+    "static/js/main.8e7efccc.chunk.js"
+  ]
+}
